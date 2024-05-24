@@ -114,15 +114,21 @@
     "ex_equip": [],
     "skills": {
       "S1": {
-        "hitTypes": [],
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 0.7
+        "pow": 1
+        "targets": 1
+        "selfDefScaling": 0.9,
         "options": []
-      },
       "S2": {
         "hitTypes": [],
         "options": []
       },
       "S3": {
-        "hitTypes": [],
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1.1
+        "pow": 1
+        "targets": 3
         "options": []
       }
     },
